@@ -29,7 +29,6 @@ let value = (un === 1 && deux === 2 && vingttrois === 23)
 
 if (!type){
     console.error("Vérifier que les variables sont bien des nombres")
-    return 0;
 }
 if (!value) {
     console.error("Vérifier la valeur des nombres")
