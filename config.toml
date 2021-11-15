@@ -1,0 +1,53 @@
+baseURL = "https://j0rdan-m.github.io/training-debutant-js"
+languageCode = "fr-FR"
+title = "Training JS FR"
+themesDir = "./themes"
+theme = "whisper"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Exercices"
+    url = "/exercices/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/exercices'
+  homepage_button_text = 'Commencez les exercices'
+  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  homepage_image = '/images/code.png'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Exercices pour débutant JavaScript."
+    meta_og_title = "Training JS FR"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-whisper.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@j0rdan_m"
+    meta_twitter_creator = "@j0rdan_m"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"
