@@ -1,7 +1,7 @@
 ---
 title: "Exercices"
 date: 2021-11-15T10:58:57+01:00
-draft: true
+draft: false
 ---
 
 Bienvenue sur la page d'exercices d'entrainement à JavaScript. Ce site n'a pas pour but de donner des cours ou des astuces, mais offrir un panel d'exercice à la difficulté progressive.
