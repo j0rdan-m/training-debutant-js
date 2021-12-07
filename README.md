@@ -1,3 +1,9 @@
+---
+title: "Exercices JS"
+date: 2021-11-15T10:38:09+01:00
+draft: false
+---
+
 # training-debutant-js
 Exercices pour débutant
 
