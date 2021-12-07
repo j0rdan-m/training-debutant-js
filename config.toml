@@ -27,6 +27,11 @@ summaryLength = 30
     url = "/exercices/"
     weight = 2
 
+[[menu.main]]
+    name = "Documentation"
+    url = "/docs/#/"
+    weight = 3
+
 [params]
   google_analytics_id=""
   homepage_button_link = '/exercices'

@@ -24,9 +24,6 @@ jobs:
       - name: Build
         run: hugo version; hugo --minify
 
-      - name: Build Docs
-        run: sudo apt install npm; sudo npm i docsify-cli -g; docsify init ./docs; mv docs public;cd public; ls; cd exercices; ls
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
