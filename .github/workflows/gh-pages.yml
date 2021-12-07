@@ -30,6 +30,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-      - name: Generate documentation
-        uses: tool3/docsify-action@v1.1
-
